@@ -30,7 +30,7 @@ class Sparrow : public Bird ,public flyable{
 class Ostrich :public Bird{
       public:
     void display() const override{
-        // std::cout<<"I am Ostrich"<<std:: endl;
+        std::cout<<"I am Ostrich"<<std:: endl;
     }
 
 };
@@ -46,5 +46,7 @@ int main(){
     sparrow.display();
     ostrich.display();
     makeBirdFly(sparrow);
+// makeBirdFly(ostrich);
+// makeBirdFly(ostrich);
 // makeBirdFly(ostrich);
 }
