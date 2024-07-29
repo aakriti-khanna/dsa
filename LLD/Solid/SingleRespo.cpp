@@ -46,7 +46,7 @@ int main(){
     sparrow.display();
     ostrich.display();
     makeBirdFly(sparrow);
-// makeBirdFly(ostrich);
-// makeBirdFly(ostrich);
+makeBirdFly(ostrich);
+makeBirdFly(ostrich);
 // makeBirdFly(ostrich);
 }
